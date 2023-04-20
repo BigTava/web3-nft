@@ -6,7 +6,6 @@ import "@nomicfoundation/hardhat-chai-matchers"
 import "hardhat-deploy"
 import "hardhat-contract-sizer"
 import "@appliedblockchain/chainlink-plugins-fund-link"
-import "./tasks"
 
 dotenv.config()
 
