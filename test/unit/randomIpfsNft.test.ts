@@ -5,7 +5,7 @@ import { RandomIpfsNft, VRFCoordinatorV2Mock } from "../../typechain"
 
 !developmentChains.includes(network.name)
     ? describe.skip
-    : describe.only("Random IPFS NFT Unit Tests", function () {
+    : describe("Random IPFS NFT Unit Tests", function () {
           let randomIpfsNft: RandomIpfsNft, deployer, vrfCoordinatorV2Mock: VRFCoordinatorV2Mock
 
           beforeEach(async () => {
